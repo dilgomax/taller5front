@@ -1,0 +1,130 @@
+function act_mod1() {
+    document.getElementById('modulo1').style.display="block";
+    document.getElementById('modulo2').style.display="none";
+    document.getElementById('modulo3').style.display="none";
+    document.getElementById('modulo4').style.display="none";
+    document.getElementById('modulo5').style.display="none";
+    document.getElementById('modulo6').style.display="none";
+    document.getElementById('modulo7').style.display="none";
+    document.getElementById('modulo8').style.display="none";
+    document.getElementById('modulo9').style.display="none";
+    document.getElementById('modulo10').style.display="none";
+    document.getElementById('modulo11').style.display="none";
+}
+function act_mod2() {
+    document.getElementById('modulo1').style.display="none";
+    document.getElementById('modulo2').style.display="block";
+    document.getElementById('modulo3').style.display="none";
+    document.getElementById('modulo4').style.display="none";
+    document.getElementById('modulo5').style.display="none";
+    document.getElementById('modulo6').style.display="none";
+    document.getElementById('modulo7').style.display="none";
+    document.getElementById('modulo8').style.display="none";
+    document.getElementById('modulo9').style.display="none";
+    document.getElementById('modulo10').style.display="none";
+    document.getElementById('modulo11').style.display="none";
+}
+function act_mod3() {
+    document.getElementById('modulo1').style.display="none";
+    document.getElementById('modulo2').style.display="none";
+    document.getElementById('modulo3').style.display="block";
+    document.getElementById('modulo4').style.display="none";
+    document.getElementById('modulo5').style.display="none";
+    document.getElementById('modulo6').style.display="none";
+    document.getElementById('modulo7').style.display="none";
+    document.getElementById('modulo8').style.display="none";
+    document.getElementById('modulo9').style.display="none";
+    document.getElementById('modulo10').style.display="none";
+    document.getElementById('modulo11').style.display="none";
+}
+function act_mod4() {
+    document.getElementById('modulo1').style.display="none";
+    document.getElementById('modulo2').style.display="none";
+    document.getElementById('modulo3').style.display="none";
+    document.getElementById('modulo4').style.display="block";
+    document.getElementById('modulo5').style.display="none";
+    document.getElementById('modulo6').style.display="none";
+    document.getElementById('modulo7').style.display="none";
+    document.getElementById('modulo8').style.display="none";
+    document.getElementById('modulo9').style.display="none";
+    document.getElementById('modulo10').style.display="none";
+    document.getElementById('modulo11').style.display="none";
+}
+function act_mod5() {
+    document.getElementById('modulo1').style.display="none";
+    document.getElementById('modulo2').style.display="none";
+    document.getElementById('modulo3').style.display="none";
+    document.getElementById('modulo4').style.display="none";
+    document.getElementById('modulo5').style.display="block";
+    document.getElementById('modulo6').style.display="none";
+    document.getElementById('modulo7').style.display="none";
+    document.getElementById('modulo8').style.display="none";
+    document.getElementById('modulo9').style.display="none";
+    document.getElementById('modulo10').style.display="none";
+    document.getElementById('modulo11').style.display="none";
+}
+function act_mod6() {
+    document.getElementById('modulo1').style.display="none";
+    document.getElementById('modulo2').style.display="none";
+    document.getElementById('modulo3').style.display="none";
+    document.getElementById('modulo4').style.display="none";
+    document.getElementById('modulo5').style.display="none";
+    document.getElementById('modulo6').style.display="block";
+    document.getElementById('modulo7').style.display="none";
+    document.getElementById('modulo8').style.display="none";
+    document.getElementById('modulo9').style.display="none";
+    document.getElementById('modulo10').style.display="none";
+    document.getElementById('modulo11').style.display="none";
+}
+function act_mod7() {
+    document.getElementById('modulo1').style.display="none";
+    document.getElementById('modulo2').style.display="none";
+    document.getElementById('modulo3').style.display="none";
+    document.getElementById('modulo4').style.display="none";
+    document.getElementById('modulo5').style.display="none";
+    document.getElementById('modulo6').style.display="none";
+    document.getElementById('modulo7').style.display="block";
+    document.getElementById('modulo8').style.display="none";
+    document.getElementById('modulo9').style.display="none";
+    document.getElementById('modulo10').style.display="none";
+    document.getElementById('modulo11').style.display="none";
+}
+function act_mod8() {
+    document.getElementById('modulo1').style.display="none";
+    document.getElementById('modulo2').style.display="none";
+    document.getElementById('modulo3').style.display="none";
+    document.getElementById('modulo4').style.display="none";
+    document.getElementById('modulo5').style.display="none";
+    document.getElementById('modulo6').style.display="none";
+    document.getElementById('modulo7').style.display="none";
+    document.getElementById('modulo8').style.display="block";
+    document.getElementById('modulo9').style.display="none";
+    document.getElementById('modulo10').style.display="none";
+    document.getElementById('modulo11').style.display="none";
+}
+function act_mod9() {
+    document.getElementById('modulo1').style.display="none";
+    document.getElementById('modulo2').style.display="none";
+    document.getElementById('modulo3').style.display="none";
+    document.getElementById('modulo4').style.display="none";
+    document.getElementById('modulo5').style.display="none";
+    document.getElementById('modulo6').style.display="none";
+    document.getElementById('modulo7').style.display="none";
+    document.getElementById('modulo8').style.display="none";
+    document.getElementById('modulo9').style.display="block";
+    document.getElementById('modulo10').style.display="none";
+    document.getElementById('modulo11').style.display="none";
+}
+function act_mod10() {
+    document.getElementById('modulo1').style.display="none";
+    document.getElementById('modulo2').style.display="none";
+    document.getElementById('modulo3').style.display="none";
+    document.getElementById('modulo4').style.display="none";
+    document.getElementById('modulo5').style.display="none";
+    document.getElementById('modulo6').style.display="none";
+    document.getElementById('modulo7').style.display="none";
+    document.getElementById('modulo8').style.display="none";
+    document.getElementById('modulo9').style.display="none";
+    document.getElementById('modulo10').style.display="block";
+    document.getElementById('modulo11').style.display="none";
+}

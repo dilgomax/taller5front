@@ -1,0 +1,107 @@
+html {
+    box-sizing: border-box;
+    }
+    *, *:before, *:after {
+    box-sizing: inherit;
+    }
+
+/*    *, *:before, *:after {
+        box-sizing: inherit;
+        }*/
+
+
+
+    body{
+    font: 1.2em/1.2 Helvetica, aria, sans-serif;
+    margin: 0 3%;
+    *{
+        border: 0;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    /*Fuentes*/
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@1,8..144,500&display=swap');
+                /*  font-family: 'Roboto Serif', serif;   */
+    
+    #bg{
+        font-family: 'Signika Negative', sans-serif;
+        background-image:  linear-gradient(#77eff5a1, #77eff59d), url("../img/fondo.jpg");
+        position: static;
+        background-size: 100% 100%;
+    }
+    }
+    h1 {
+    font-size: 1.8em;
+    padding: 0 0 0 0;
+    }
+    h2 {
+    font-size: 1.5em;
+    margin: 1.5em 0 0 0;
+    }
+    img {
+    max-width: 100%;
+    }
+    figure {
+    background: #000000;
+    border-radius: 5px;
+    color: #ffffff;
+    margin: 0 0 25px 0;
+    padding: 10px;
+    text-align: center;
+    }
+    figcaption {
+    font-size: .8em;
+    }
+
+    /* @media  se  encarga de  ditribuir las  diferente  configuraciones de responsive
+    aplicando fdiferentes  estilo a las diferentes resoluciones */
+    @media screen and (min-width: 794px) {
+    body {
+    background: #0000ff33;
+    margin: 25px 6%;
+    }
+    figure {
+    float: left;
+    width: 45%;
+    margin-right: 4.5%;
+    }
+    }
+    @media screen and (min-width: 1020px) {
+    body {
+    background: #00ff0033;
+    margin: 25px 10%;
+    max-width: 1290px;
+    }
+    figure {
+    width: 30%;
+    margin-right: 2.5%;
+    }
+    }
+
+
+    @media screen and (min-width: 1300px) {
+        body {
+        background: #b80e8dec;
+        margin: 25px 15%;
+        max-width: 1490px;
+        }
+        figure {
+        width: 25%;
+        margin-right: 2.5%;
+        }
+        }
+
+
+        @media screen and (min-width: 1500px) {
+            body {
+            background: #38e00dec;
+            margin: 25px 20%;
+            max-width: 1980px;
+            }
+            figure {
+            width: 20%;
+            margin-right: 2.5%;
+            }
+            }

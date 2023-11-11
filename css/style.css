@@ -1,0 +1,598 @@
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@1,8..144,500&display=swap');
+            /*  font-family: 'Roboto Serif', serif;   */
+
+body{
+    font-family: 'Signika Negative', sans-serif;
+    background-image:  linear-gradient(#77eff5a1, #77eff59d), url("../img/fondo.jpg");
+    position: static;
+    background-size: 100vw 100vh;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+
+}
+
+h1{
+    font-size: 70px !important;
+    text-align: center !important;
+    padding: 2rem;
+    text-shadow: -3px -3px 7px rgba(255,255,255,0.8);
+    font-family: 'Signika Negative', sans-serif;
+    z-index: -10;
+    font-weight: 700 !important;
+    
+}
+
+
+/* boton hambuerguesa/*
+/* estilos base */
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* header
+****************************/
+
+
+.header {
+  width: 100%;
+  background-color: transparent;
+}
+.header a {
+  text-decoration: none;
+}
+.child-header {
+  max-width: 1400px;
+  padding: 0 5%;
+  margin: 0 auto 0;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+/* logo
+****************************/
+.link-logo {
+  font-weight: 700;
+  color: #000;
+  font-size: 28px;
+}
+
+
+
+/* menu de navegacion
+****************************/
+.box-menu-navegacion {
+  width: 50%;
+}
+.box-menu-navegacion ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.menu-navegacion {  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-menu-link {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+  transition: .3s linear;
+  padding: 1.8rem 0;
+  display: inline-block;
+}
+
+/* hover */
+.item-menu-link:hover {
+  color: #d92626;
+  z-index: 100;
+}
+.item-menu-sub-menu:hover i {
+  color: #d92626;
+  transition: .3s linear;
+  z-index: 100;
+}
+
+
+
+
+/* boton hamburguesa
+****************************/
+.btn-hamburguesa {
+  display: none;
+  background-color: transparent;
+  height: 102px;
+  border: none;
+  cursor: pointer;
+}
+.btn-hamburguesa span {
+  height: 13px;
+  display: block;
+  background-color: #fb0000;
+  width: 57px;
+  border-radius: 20px;
+}
+.btn-hamburguesa span:nth-child(2) {
+  margin: .4rem 0;
+}
+
+
+
+/* sub menu
+****************************/
+.item-menu-sub-menu {
+  position: relative;
+}
+.sub-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 250px;
+  background-color: #fff;
+  transform: scaley(0);
+  transform-origin: top;
+  transition: transform .3s linear;
+}
+.sub-menu .item-menu-link {
+  padding: 5px;
+}
+
+/* hover */
+.item-menu-sub-menu:hover .sub-menu {
+  transform: scaley(1);
+}
+
+
+
+
+
+   @media screen and (max-width: 4096px) {
+  /* boton hamburguesa
+  ****************************/
+  .btn-hamburguesa {
+    display: block;
+  }
+  
+  /*  header
+  ****************************/
+  .header {
+    position: absolute;
+    padding: 1rem 0;
+    width: 200px;
+    right: 0px !important;
+  }
+  }
+  
+  /*  menu de navegacion
+  ****************************/
+.header .box-menu-navegacion {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    transform: scaley(0);
+    transform-origin: top;
+    transition: .3s linear;
+    padding: 0 1rem;
+    border-radius: 25px 0 0 25px;
+    box-shadow: -4px 2px 7px 4px rgba(255,255,255,0.82);
+  }
+  .header  .menu-navegacion {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .header .item-menu-link {
+    padding: 5px 0;
+  }
+  .header .item-menu-sub-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .header .angle-view-sub-menu {
+    border: 1px solid #000;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    padding: .2rem 0;
+  }
+  .header .sub-menu {
+    width: 100%;
+    position: initial;
+    transform: scaley(1);
+    display: none;
+  }
+  
+  
+  /*  activador sub menu
+  ****************************/
+  .header .viewMenu {
+    transform: scaley(1);
+  }
+
+  
+  /*  hover
+  ****************************/
+  .header .item-menu-link:hover,
+  .header .item-menu-sub-menu:hover i {
+    color: initial;
+  }
+
+  /* estilos  de  la section */
+
+  section h2{
+    margin: 0 5vw;
+  }
+  
+/*MODULO 1 #############################################################################*/
+#modulind img{
+  width: 40vw;
+}
+#modulind img:hover{
+  transform: rotate(15deg);
+}
+
+
+
+/*modul1*/
+#modul1 iframe{
+  width: 80vw;
+  height: 80vh;
+  margin: 5% 8%;
+}
+#modul1 h2{
+  text-align: center;
+  
+}
+/*mudulo*/
+#modul2 {
+  text-align: center;
+  padding: 20px;
+}
+
+#modul2 figcaption{
+  background: black;
+  color: white;
+  width: 82%;
+  height: 20px;
+  margin: auto;
+  padding-top: -3px;
+  
+}
+
+/*mudulo*/
+#modul3{
+  margin: auto;
+}
+#modul3 div{
+  width: 80%;
+  margin:0 10%;
+
+}
+#modul3 iframe{
+  width: 80vw;
+  height: 90vh;
+  margin: 0 10vw;
+  box-shadow:  5px 5px 10px #8a3434,
+             -5px -5px 10px #ff6666;
+}
+#modul3 ul li {
+  font-size: 30px;
+  padding: 20px;
+
+}
+  /*mudulo4*/
+
+  /*se  agrega clase para  altenar el color del texto*/
+#modul4 .red{
+  color: red;
+}
+
+#modul4 .blue{
+  color: blue;
+}
+#modul4{
+  padding: 5%;
+  text-align: center;
+}
+
+/*mudulo5*/
+
+
+
+/* se realiza configuraciones de  id  para  los colores  del  texto y 
+subrayado*/
+
+#modul5{
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+      
+#modul5 .div1{
+  width: 90%;
+  height: 100%;
+  margin: 5%;
+  background-color: #f0f8ff83;
+  border-radius: 30px;
+  padding: 20px;
+ 
+ 
+  }
+      
+#modul5 #versub{
+  color: green;
+  text-decoration: underline
+}
+
+#modul5 #red{
+  color: red;
+  font-weight: bold;
+}
+#modul5 #dobleraya{
+  text-decoration: underline overline;
+  
+}
+
+#modul5 #font{
+  font-size: 3rem;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+#modul5 #red2{
+  color: red;
+  font-weight: bold;
+  font-size: 1.7rem;
+  text-decoration: underline
+}
+#modul5 #blue{
+  color: blue;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+#modul5 h2{
+  text-align: center;
+  font-size: 6rem;
+}
+
+
+/*mudulo6*/
+
+
+/*Se crea clases e id para las  propiedades de los  enlaces*/
+#modul6{
+  display:flex;
+  font-size: 200%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+#modul6 div{
+  margin: 10%;
+}
+#modul6 .item-1{
+  
+  text-align: center;
+}
+
+#modul6 .item-2{
+  
+  width: 400px;
+  padding: 30px;
+  line-height: 60px;
+  text-align: justify;
+  align-content: center;
+}
+
+#modul6 #yellow{
+  color: yellow;
+}
+#modul6 #purple{
+  color: purple;
+}
+
+#modul6 a{
+  display: block;
+}
+
+/*mudulo7y 8 */
+
+#modul7{
+  background: #ffc0cb;
+  display: flex;
+  justify-content:center;
+}
+
+#modul7 nav{
+  display: flex;
+  margin: 30px;
+}
+#modul7 nav li {
+  font-size: 25px;
+  padding: 30px;
+  list-style: none;
+}
+/* Se  crea el hover para cambiar el color al sobre pasar el curso
+en los enlaces*/
+#modul7 li:hover{
+  background: #001aff !important;
+  
+
+}
+#modul7 nav a{
+  color: white;
+}
+
+/* modulo9*/
+#modul9 table{
+  margin: 10%;
+}
+
+#modul9 table, td{
+    
+  background: #ffff00;
+  border: 4px dotted #000000;
+  border-collapse: collapse;
+  font-size: 20px;
+  padding: 5px;
+
+}
+
+
+#modul9 #dot{
+  border-bottom: 4.1px dotted #ff0000;
+  
+}
+
+#modul9 th{
+  color: #ff0000;
+  font-style: italic;
+}
+
+#modul9 h2{
+  text-align: center;
+  color: #000000;
+  padding: 50px;
+}
+
+/*modul11 */
+#modul11{
+  padding: 10%;
+}
+
+#modul11 .uno {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: uno;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  
+  }
+  /* @ kyframe se  encarga  de  configuar las animaciones 
+  que configuramos en css para  los  elementos*/
+
+  /* primera  animacion*/
+  @keyframes uno {
+  0% {background-color: #ff0000; left:0px;}
+  50% {background-color: #ffff00; left:200px;}
+  100% {background-color: #ff0000; left:0px;}
+  }
+
+
+  /*Segunda animacion*/  
+
+  #modul11  .div2 {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      background-color: red;
+      animation-name: div2;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate ;
+      
+      }
+
+      @keyframes div2 {
+          0% {background-color: #ff0000; left:0px; top:0px;}
+          25% {background-color: #0000ff;color: white; left:0px; top:200px;}
+          50% {background-color: #008000; left:200px; top:200px;}
+          75% {background-color: #ffff00; left:200px; top:0px;}
+          100% {background-color: #ff0000; left:0px; top:0px;}
+      }   
+      
+      @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Great+Vibes&display=swap');
+
+#modul11 *{
+  font-family: 'Gloria Hallelujah', cursive;
+  font-style: italic;
+}
+#modul11p{
+  text-align: center;
+
+}
+
+
+
+/*footer################################*/
+
+footer{
+  /* creacion del footer de la  pagina  con la  informacion de  caontato*/
+
+  box-shadow: 0px -2px 20px 4px rgba(247,74,0,0.82);
+  border-bottom: none;
+  border-radius: 50px 50px 0px 0px ;
+  background:linear-gradient(rgb(0, 204, 255),rgb(0, 47, 255),rgba(255, 0, 0, 0.719)) ;
+  z-index: 10;
+}
+.foot{
+  color: #ffffff;
+  display: flex;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+  font-size: 15px;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+
+.foot2{
+  
+  color: #ffffff;
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  font-size: 4vw;
+ padding-top: 5px; 
+ font-family: 'Oleo Script', cursive; 
+}
+.icono{
+  width: 100px;
+}
+
+/*  estilos  qr */
+#qr{
+  width: 300px;
+  margin: 30px;
+}
+
+@media screen and (max-width: 640px) {
+  .foot{
+    color: #ffffff;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    font-size: 3vw;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin: 0% 20%;
+}
+}

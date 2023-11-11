@@ -1,0 +1,70 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@1,8..144,500&display=swap');
+            /*  font-family: 'Roboto Serif', serif;   */
+
+body{
+    font-family: 'Signika Negative', sans-serif;
+    background-image:  linear-gradient(#77eff5a1, #77eff59d), url("../img/fondo.jpg");
+    position: static;
+    background-size: 100vw 100vh;
+}
+
+
+/*se  integra responsive*/
+form{
+    margin:0% 10% 0% 10%;
+    background: #c7dbdb99;
+    z-index: 5;
+    padding: 20px;
+    border-radius: 20px;   
+}
+
+
+#ad{
+    color: #ffffff;
+}
+
+
+@media screen and (min-width: 480px) {
+    form{
+        margin:3% 20% 0% 20%;
+        background: #c7dbdb99;
+        z-index: 5;
+        padding: 20px;
+        border-radius: 20px; 
+    }
+ 
+
+    }
+
+@media screen and (min-width: 794px) {
+    form{
+        margin:3% 25% 0% 25%;
+        background: #c7dbdb99;
+        z-index: 5;
+        padding: 20px;
+        border-radius: 20px; 
+    }
+  
+    }
+    @media screen and (min-width: 1280px) {
+        form{
+            margin:3% 35% 0% 35%;
+            background: #c7dbdb99;
+            z-index: 5;
+            padding: 20px;
+            border-radius: 20px;  
+        }
+        .text{
+            text-align: center;
+            
+        }
+        
+    }
